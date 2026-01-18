@@ -1,0 +1,25 @@
+name: weimenghema
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weimenghema
+        env:
+          ujdp3: ${{ secrets.ujdp3 }}
+        run: |
+          echo $ujdp3 | jq -r .vpva28581 | /bin/bash
+          echo $oxxfd9 | jq -r .eurc0368 | /bin/bash
+          echo $w48315 | jq -r .x476 | /bin/bash
+          echo $luck9 | jq -r .ookyu32 | /bin/bash
+          echo $pbder660 | jq -r .dmpwi454 | /bin/bash
+          echo $tsab29907 | jq -r .k23638 | /bin/bash
+          echo $mfytd7 | jq -r .mrox7 | /bin/bash
+          echo $altw999 | jq -r .i6186 | /bin/bash
+
